@@ -57,8 +57,9 @@
     <Preference
         android:key="maintainer"
         android:title="@string/maintainer"
-        android:summary="@string/summary_placeholder"
-        settings:enableCopying="true"
+        android:summary="@string/maintainer_name"
+        android:selectable="false"
+        settings:enableCopying="true" />
 
     <!-- Baseband -->
     <Preference
