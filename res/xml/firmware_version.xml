@@ -21,6 +21,12 @@
     android:title="@string/firmware_version"
     settings:keywords="@string/keywords_android_version">
 
+    <!-- Heavens Logo -->
+    <PreferenceScreen
+    android:layout="@layout/heavens_logo_layout"
+    android:key="heavens_logo"
+    android:order="-500" />
+
     <!-- Android version -->
     <Preference
         android:key="os_firmware_version"
